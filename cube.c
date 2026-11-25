@@ -1,5 +1,5 @@
 // cube.c - a spinning, colored cube using legacy (fixed-function) OpenGL + GLFW
-// messing with contribution and branches
+// make using gcc cube.c -o cube.exe -lglfw3 -lopengl32 -lgdi32
 
 #include <GLFW/glfw3.h>
 #include <math.h>
